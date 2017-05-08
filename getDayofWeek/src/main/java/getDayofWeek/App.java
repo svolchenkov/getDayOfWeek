@@ -9,6 +9,7 @@ public class App {
 		Calendar calendar = Calendar.getInstance();
         calendar.set(2015, 8, 05);
         System.out.println("" + calendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.US));
+        System.out.println();
 	}
 
 }
